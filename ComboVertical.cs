@@ -40,9 +40,6 @@ namespace Atelier_4
             IBoite B1 { get; set; }
             IBoite B2 { get; set; }
 
-
-            //public string Current => list[indice];
-
             List<IBoite> list = new List<IBoite>();
 
             public int indice = 1;
@@ -55,7 +52,7 @@ namespace Atelier_4
 
             public void Dispose()
             {
-
+                throw new NotImplementedException();
             }
 
             public bool MoveNext()
@@ -73,6 +70,15 @@ namespace Atelier_4
                         else return false;
                     }
                     else return false;
+                }
+            }
+
+            public void AjoutLigne()
+            {
+                const tempEtat = GetPositionActuel(indice);
+                if(tempEtat = État.milieu)
+                {
+                    list.Insert(new string('-', B1.Largeur) + "+");
                 }
             }
 
