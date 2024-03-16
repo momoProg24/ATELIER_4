@@ -1,22 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\melag\\OneDrive\\Bureau\\ProjetIntegration\\ATELIER_4\\",
+  "WorkspaceRootPath": "C:\\Users\\User\\Documents\\GitHub\\ATELIER_4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AAF44805-6CE7-49A5-A2C5-6B96588E260C}|Atelier_4.csproj|c:\\users\\melag\\onedrive\\bureau\\projetintegration\\atelier_4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AAF44805-6CE7-49A5-A2C5-6B96588E260C}|Atelier_4.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\ATELIER_4\\ComboVertical.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ComboVertical.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AAF44805-6CE7-49A5-A2C5-6B96588E260C}|Atelier_4.csproj|c:\\users\\melag\\onedrive\\bureau\\projetintegration\\atelier_4\\iboite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AAF44805-6CE7-49A5-A2C5-6B96588E260C}|Atelier_4.csproj|solutionrelative:iboite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\ATELIER_4\\Boite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Boite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AAF44805-6CE7-49A5-A2C5-6B96588E260C}|Atelier_4.csproj|c:\\users\\melag\\onedrive\\bureau\\projetintegration\\atelier_4\\boite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AAF44805-6CE7-49A5-A2C5-6B96588E260C}|Atelier_4.csproj|solutionrelative:boite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\ATELIER_4\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AAF44805-6CE7-49A5-A2C5-6B96588E260C}|Atelier_4.csproj|c:\\users\\melag\\onedrive\\bureau\\projetintegration\\atelier_4\\mono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AAF44805-6CE7-49A5-A2C5-6B96588E260C}|Atelier_4.csproj|solutionrelative:mono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\ATELIER_4\\IBoite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IBoite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\ATELIER_4\\Mono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Mono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,28 +30,40 @@
       "DocumentGroups": [
         {
           "DockedWidth": 263,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IBoite.cs",
-              "DocumentMoniker": "C:\\Users\\melag\\OneDrive\\Bureau\\ProjetIntegration\\ATELIER_4\\IBoite.cs",
-              "RelativeDocumentMoniker": "IBoite.cs",
-              "ToolTip": "C:\\Users\\melag\\OneDrive\\Bureau\\ProjetIntegration\\ATELIER_4\\IBoite.cs",
-              "RelativeToolTip": "IBoite.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAFAAAA",
+              "DocumentIndex": 0,
+              "Title": "ComboVertical.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ATELIER_4\\ComboVertical.cs",
+              "RelativeDocumentMoniker": "ComboVertical.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ATELIER_4\\ComboVertical.cs",
+              "RelativeToolTip": "ComboVertical.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAiwD4AAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T21:30:00.076Z",
+              "WhenOpened": "2024-03-16T17:22:40.453Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "IBoite.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ATELIER_4\\IBoite.cs",
+              "RelativeDocumentMoniker": "IBoite.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ATELIER_4\\IBoite.cs",
+              "RelativeToolTip": "IBoite.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T21:30:00.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Boite.cs",
-              "DocumentMoniker": "C:\\Users\\melag\\OneDrive\\Bureau\\ProjetIntegration\\ATELIER_4\\Boite.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ATELIER_4\\Boite.cs",
               "RelativeDocumentMoniker": "Boite.cs",
-              "ToolTip": "C:\\Users\\melag\\OneDrive\\Bureau\\ProjetIntegration\\ATELIER_4\\Boite.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ATELIER_4\\Boite.cs",
               "RelativeToolTip": "Boite.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAiwAkAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -56,24 +72,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Mono.cs",
-              "DocumentMoniker": "C:\\Users\\melag\\OneDrive\\Bureau\\ProjetIntegration\\ATELIER_4\\Mono.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ATELIER_4\\Mono.cs",
               "RelativeDocumentMoniker": "Mono.cs",
-              "ToolTip": "C:\\Users\\melag\\OneDrive\\Bureau\\ProjetIntegration\\ATELIER_4\\Mono.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ATELIER_4\\Mono.cs",
               "RelativeToolTip": "Mono.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T21:28:16.325Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-13T21:28:16.325Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\melag\\OneDrive\\Bureau\\ProjetIntegration\\ATELIER_4\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ATELIER_4\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\melag\\OneDrive\\Bureau\\ProjetIntegration\\ATELIER_4\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ATELIER_4\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
