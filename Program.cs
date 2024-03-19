@@ -3,4 +3,5 @@ using System;
 using System.ComponentModel;
 
 Console.WriteLine(new Boite("J'aime\nmon \"prof\""));
+Console.WriteLine(new Boite(""));
 Console.WriteLine(new Boite("ANDREW\nEST \nPAS\nBEAU"));

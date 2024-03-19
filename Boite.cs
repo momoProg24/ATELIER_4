@@ -15,7 +15,7 @@ namespace Atelier_4
         IBoite boiteMain;
         public Boite(IBoite boite)
         {
-
+            
         }
 
         public Boite(string s)
