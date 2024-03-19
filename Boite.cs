@@ -13,9 +13,15 @@ namespace Atelier_4
     {
 
         IBoite boiteMain;
+
+        public Boite() 
+        {
+            boiteMain = new Boite("");
+        }
+
         public Boite(IBoite boite)
         {
-
+            boiteMain = boite;
         }
 
         public Boite(string s)
@@ -30,7 +36,7 @@ namespace Atelier_4
 
         public IBoite Cloner()
         {
-            throw new NotImplementedException();
+            return new Boite(this);
         }
 
         public override string ToString()
@@ -54,7 +60,7 @@ namespace Atelier_4
 
         public IEnumerator<string> GetEnumerator()
         {
-            throw new NotImplementedException();
+            return boiteMain.GetEnumerator();
         }
 
         public IEnumerator<string> GetÉnumérateur()
