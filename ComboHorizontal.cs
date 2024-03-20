@@ -9,7 +9,7 @@ namespace Atelier_4
 {
     internal class ComboHorizontal: IBoite
     {
-        public ComboHorizontal(IBoite boiteA, IBoite boiteB) 
+        public ComboHorizontal(IBoite boiteA, IBoite boiteB) //REDO
         {
             int hauteurMax = Math.Max(boiteA.Hauteur, boiteB.Hauteur);
             boiteA.Hauteur = hauteurMax;
@@ -37,7 +37,7 @@ namespace Atelier_4
 
             bool isMillieu = false;
 
-            public string Current
+            public string Current //CHANGES TO DO HERE
             {
                 get
                 {
@@ -71,7 +71,7 @@ namespace Atelier_4
 
             }
 
-            public bool MoveNext()
+            public bool MoveNext() //REDO
             {
                 if (currentEnum.MoveNext()) return true;
                 else if (list.Count > 1)
