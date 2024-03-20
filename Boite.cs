@@ -28,11 +28,14 @@ namespace Atelier_4
         {
             boiteMain = new Mono(s);
         }
-        public int Largeur => boiteMain.Largeur;
+        //public int Largeur => boiteMain.Largeur;
 
-        public int Hauteur => throw new NotImplementedException();
+        //public int Hauteur => throw new NotImplementedException();
 
         public bool EstVide => throw new NotImplementedException();
+
+        public int Largeur { get { return boiteMain.Largeur; } set { boiteMain.Largeur = value; } }
+        public int Hauteur { get; set; }
 
         public IBoite Cloner()
         {
@@ -48,9 +51,12 @@ namespace Atelier_4
 
             foreach (string str in boiteMain)
             {
-                boite += "|" + str;
-                boite += new string(' ', boiteMain.Largeur - str.Length);
-                boite += "|" + '\n';
+                if (!string.IsNullOrWhiteSpace(str))
+                {
+                    boite += "|" + str;
+                    boite += new string(' ', boiteMain.Largeur - str.Length);
+                    boite += "|" + '\n';
+                }
             }
             boite += "+";
             boite += new string('-', boiteMain.Largeur) + "+";

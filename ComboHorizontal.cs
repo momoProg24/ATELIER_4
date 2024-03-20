@@ -1,32 +1,26 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Linq;
-using System.Runtime.InteropServices.JavaScript;
-using System.Runtime.Intrinsics.X86;
 using System.Text;
 using System.Threading.Tasks;
-using System.Transactions;
 
 namespace Atelier_4
 {
-    //enum État { début, milieu, fin };
-    internal class ComboVertical : IBoite
+    internal class ComboHorizontal: IBoite
     {
-        public ComboVertical(IBoite boiteA, IBoite boiteB) 
+        public ComboHorizontal(IBoite boiteA, IBoite boiteB) 
         {
-            int largeurMax = Math.Max(boiteA.Largeur, boiteB.Largeur);
-            boiteA.Largeur = largeurMax;
-            boiteB.Largeur = largeurMax;
+            int hauteurMax = Math.Max(boiteA.Hauteur, boiteB.Hauteur);
+            boiteA.Hauteur = hauteurMax;
+            boiteB.Hauteur = hauteurMax;
 
-            Largeur = largeurMax;
+            Hauteur = hauteurMax;
 
             BoiteA = boiteA.Cloner();
             BoiteB = boiteB.Cloner();
         }
-
-        public int Largeur {  get; set; }
+        public int Largeur { get; set; }
 
         public int Hauteur { get; set; }
 
@@ -34,34 +28,28 @@ namespace Atelier_4
 
         public IBoite BoiteB { get; set; }
 
-        //public État GetPositionActuel(int idx)
-        //{
-        //    if(idx == 1) return État.début;
-        //    if(idx == Hauteur / 2) return État.milieu;
-        //    if(idx == Hauteur) return État.fin;
-        //    return État.début;
-        //}
-
         class Énumérateur : IEnumerator<string>
         {
             IBoite B1 { get; set; }
             IBoite B2 { get; set; }
 
-            IEnumerator<string> currentEnum {  get; set; }
-            
+            IEnumerator<string> currentEnum { get; set; }
+
             bool isMillieu = false;
 
-            public string Current { 
-                get {
-                    if (isMillieu) 
+            public string Current
+            {
+                get
+                {
+                    if (isMillieu)
                     {
                         isMillieu = false;
-                        return new string('-', Math.Max(B1.Largeur, B2.Largeur)); 
+                        return new string('|', Math.Max(B1.Hauteur, B2.Hauteur));
                     }
                     else return currentEnum.Current;
                 }
                 set { Current = value; }
-             }
+            }
 
             object IEnumerator.Current => throw new NotImplementedException();
 
@@ -80,7 +68,7 @@ namespace Atelier_4
 
             public void Dispose()
             {
-                
+
             }
 
             public bool MoveNext()

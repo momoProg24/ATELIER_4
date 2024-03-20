@@ -14,8 +14,9 @@ Console.WriteLine(b0);
 Console.WriteLine(b1);
 ComboVertical cv = new(b0, b1);
 Console.WriteLine(new Boite(cv));
-//ComboHorizontal ch = new(b0, b1);
-//Console.WriteLine(new Boite(ch));
+
+ComboHorizontal ch = new(b0, b1);
+Console.WriteLine(new Boite(ch));
 //ComboVertical cvplus = new(new Boite(cv), new Boite(ch));
 //Console.WriteLine(new Boite(cvplus));
 //ComboHorizontal chplus = new(new Boite(cv), new Boite(ch));
@@ -42,6 +43,7 @@ Console.WriteLine(new Boite(cv));
 //Console.WriteLine(
 //   new Boite(new ComboHorizontal(new Boite(), new Boite()))
 //);
+
 Console.WriteLine(
    new Boite(new ComboVertical(new Boite(), new Boite()))
 );

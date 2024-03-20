@@ -11,8 +11,8 @@ namespace Atelier_4
         void Redimensionner(int hauteur, int largeur);
         IBoite Cloner();
         IEnumerator<string> GetÉnumérateur();
-        int Largeur { get; }
-        int Hauteur { get; }
+        int Largeur { get; set; }
+        int Hauteur { get; set; }
         bool EstVide { get; }
     }
 }
