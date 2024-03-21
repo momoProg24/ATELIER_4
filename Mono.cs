@@ -86,7 +86,7 @@ namespace Atelier_4
 
         public void Redimensionner(int hauteur, int largeur)
         {
-            while(msg.Count != hauteur)
+            while(msg.Count < hauteur)
             {
                 msg.Add(new string(' ', largeur));
             }

@@ -12,8 +12,8 @@ Boite b0 = new(texte);
 Boite b1 = new(autTexte);
 Console.WriteLine(b0);
 Console.WriteLine(b1);
-//ComboVertical cv = new(b0, b1);
-//Console.WriteLine(new Boite(cv));
+ComboVertical cv = new(b0, b1);
+Console.WriteLine(new Boite(cv));
 
 ComboHorizontal ch = new(b0, b1);
 Console.WriteLine(new Boite(ch));
