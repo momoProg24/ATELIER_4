@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "J6sJCf/6+Lx6xOUovVH8ln2CC1VGWLOeozJPhhPzOSysd65CVMcFy9uOoGp+JFNm1p5XtROzAdjPCUY9wRW+FA==",
+=======
+  "dgSpecHash": "75mXL5OriOfbG3aZUopXzCVJeK6Nwoqsa/DJtpIqL+oASKJ4OXj4eCvo3d8HRXYBRU2SMs1t/34l8Eh9rA+VyQ==",
+>>>>>>> main
   "success": true,
   "projectFilePath": "C:\\Users\\melag\\OneDrive\\Bureau\\ProjetIntegration\\ATELIER_4\\Atelier_4.csproj",
   "expectedPackageFiles": [],

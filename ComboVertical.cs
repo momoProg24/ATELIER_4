@@ -4,19 +4,29 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
 using System.Runtime.InteropServices.JavaScript;
+using System.Runtime.Intrinsics.X86;
 using System.Text;
 using System.Threading.Tasks;
 using System.Transactions;
 
 namespace Atelier_4
 {
-    enum État { début, milieu, fin };
     internal class ComboVertical : IBoite
     {
         public ComboVertical(IBoite boiteA, IBoite boiteB) 
         {
             BoiteA = boiteA.Cloner();
             BoiteB = boiteB.Cloner();
+
+            int largeurMax = Math.Max(boiteA.Largeur, boiteB.Largeur);
+            boiteA.Largeur = largeurMax;
+            boiteB.Largeur = largeurMax;
+
+            Largeur = largeurMax;
+            Hauteur = boiteA.Hauteur + 1 + boiteB.Hauteur;
+
+            boiteA.Redimensionner(boiteA.Hauteur, Largeur);
+            boiteB.Redimensionner(Hauteur - boiteA.Hauteur - 1, Largeur);
         }
 
         public int Largeur {  get; set; }
@@ -27,18 +37,28 @@ namespace Atelier_4
 
         public IBoite BoiteB { get; set; }
 
-        public État GetPositionActuel(int idx)
-        {
-            if(idx == 1) return État.début;
-            if(idx == Hauteur / 2) return État.milieu;
-            if(idx == Hauteur) return État.fin;
-            return État.début;
-        }
-
         class Énumérateur : IEnumerator<string>
         {
             IBoite B1 { get; set; }
             IBoite B2 { get; set; }
+
+            IEnumerator<string> currentEnum {  get; set; }
+            
+            bool isMillieu = false;
+
+            public string Current { 
+                get {
+                    if (isMillieu) 
+                    {
+                        isMillieu = false;
+                        return new string('-', Math.Max(B1.Largeur, B2.Largeur)); 
+                    }
+                    else return currentEnum.Current;
+                }
+                set { Current = value; }
+             }
+
+            object IEnumerator.Current => throw new NotImplementedException();
 
             List<IBoite> list = new List<IBoite>();
 
@@ -47,39 +67,32 @@ namespace Atelier_4
             public Énumérateur(IBoite b1, IBoite b2)
             {
                 B1 = b1;
+                list.Add(b1);
                 B2 = b2;
+                list.Add(b2);
+                currentEnum = B1.GetEnumerator();
             }
 
             public void Dispose()
             {
-                throw new NotImplementedException();
+                
             }
 
             public bool MoveNext()
             {
-                if (B1.GetÉnumérateur().MoveNext())
+                if (currentEnum.MoveNext()) return true;
+                else if (list.Count > 1)
                 {
-                    return true;
-                }
-                else
-                {
-                    if (list.Count > 1)
+                    list.RemoveAt(0);
+                    if (list.Count == 1)
                     {
-                        if (B2.GetÉnumérateur().MoveNext())
-                            return true;
-                        else return false;
+                        isMillieu = true;
+                        currentEnum = B2.GetEnumerator();
+                        return true;
                     }
                     else return false;
                 }
-            }
-
-            public void AjoutLigne()
-            {
-                const tempEtat = GetPositionActuel(indice);
-                if(tempEtat = État.milieu)
-                {
-                    list.Insert(new string('-', B1.Largeur) + "+");
-                }
+                return false;
             }
 
             public void Reset()
@@ -90,15 +103,9 @@ namespace Atelier_4
 
         public bool EstVide => throw new NotImplementedException();
 
-        public IBoite Cloner()
-        {
-            return new Boite(this);
-        }
+        public IBoite Cloner() => new Boite(this);
 
-        public IEnumerator<string> GetEnumerator()
-        {
-            return new Énumérateur(BoiteA, BoiteB);
-        }
+        public IEnumerator<string> GetEnumerator() => new Énumérateur(BoiteA, BoiteB);
 
         public IEnumerator<string> GetÉnumérateur()
         {
@@ -107,7 +114,8 @@ namespace Atelier_4
 
         public void Redimensionner(int hauteur, int largeur)
         {
-            // TODO
+            BoiteA.Redimensionner(hauteur, largeur);
+            BoiteB.Redimensionner(hauteur, largeur);
         }
 
         IEnumerator IEnumerable.GetEnumerator()

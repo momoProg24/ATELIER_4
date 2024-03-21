@@ -13,24 +13,34 @@ namespace Atelier_4
     {
 
         IBoite boiteMain;
+
+        public Boite() 
+        {
+            boiteMain = new Boite("");
+        }
+
         public Boite(IBoite boite)
         {
+<<<<<<< HEAD
             
+=======
+            boiteMain = boite;
+>>>>>>> main
         }
 
         public Boite(string s)
         {
             boiteMain = new Mono(s);
         }
-        public int Largeur => boiteMain.Largeur;
-
-        public int Hauteur => throw new NotImplementedException();
 
         public bool EstVide => throw new NotImplementedException();
 
+        public int Largeur { get { return boiteMain.Largeur; } set { boiteMain.Largeur = value; } }
+        public int Hauteur { get; set; }
+
         public IBoite Cloner()
         {
-            throw new NotImplementedException();
+            return new Boite(this);
         }
 
         public override string ToString()
@@ -42,9 +52,12 @@ namespace Atelier_4
 
             foreach (string str in boiteMain)
             {
-                boite += "|" + str;
-                boite += new string(' ', boiteMain.Largeur - str.Length);
-                boite += "|" + '\n';
+                if (!string.IsNullOrWhiteSpace(str))
+                {
+                    boite += "|" + str;
+                    boite += new string(' ', boiteMain.Largeur - str.Length);
+                    boite += "|" + '\n';
+                }
             }
             boite += "+";
             boite += new string('-', boiteMain.Largeur) + "+";
@@ -54,7 +67,7 @@ namespace Atelier_4
 
         public IEnumerator<string> GetEnumerator()
         {
-            throw new NotImplementedException();
+            return boiteMain.GetEnumerator();
         }
 
         public IEnumerator<string> GetÉnumérateur()
@@ -64,7 +77,7 @@ namespace Atelier_4
 
         public void Redimensionner(int hauteur, int largeur)
         {
-            throw new NotImplementedException();
+            boiteMain.Redimensionner(hauteur, largeur);
         }
 
         IEnumerator IEnumerable.GetEnumerator()
