@@ -29,7 +29,7 @@ namespace Atelier_4
         }
         public int Largeur { get; set; }
 
-        public int Hauteur { get { return msg.Count;  } set { Hauteur = value; } }
+        public int Hauteur { get { return msg.Count; } set { } }
 
         class Énumérateur : IEnumerator<string> // Il va prendre une liste et il va avoir un int Current--MoveNext()
         {
@@ -38,6 +38,7 @@ namespace Atelier_4
             public string Current => list[indice];
 
             public int indice = -1;
+
             public Énumérateur(List<string> list)
             {
                 this.list = list;
@@ -85,7 +86,15 @@ namespace Atelier_4
 
         public void Redimensionner(int hauteur, int largeur)
         {
-            throw new NotImplementedException();
+            while(msg.Count != hauteur)
+            {
+                msg.Add(new string(' ', largeur));
+            }
+            for(int i = 0; i < msg.Count; i++)
+            {
+                if (msg[i].Length < hauteur)
+                    msg[i] = msg[i] + new string(' ', largeur);
+            }
         }
 
         IEnumerator IEnumerable.GetEnumerator()

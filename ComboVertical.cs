@@ -11,19 +11,22 @@ using System.Transactions;
 
 namespace Atelier_4
 {
-    //enum État { début, milieu, fin };
     internal class ComboVertical : IBoite
     {
         public ComboVertical(IBoite boiteA, IBoite boiteB) 
         {
+            BoiteA = boiteA.Cloner();
+            BoiteB = boiteB.Cloner();
+
             int largeurMax = Math.Max(boiteA.Largeur, boiteB.Largeur);
             boiteA.Largeur = largeurMax;
             boiteB.Largeur = largeurMax;
 
             Largeur = largeurMax;
+            Hauteur = boiteA.Hauteur + 1 + boiteB.Hauteur;
 
-            BoiteA = boiteA.Cloner();
-            BoiteB = boiteB.Cloner();
+            boiteA.Redimensionner(boiteA.Hauteur, Largeur);
+            boiteB.Redimensionner(Hauteur - boiteA.Hauteur - 1, Largeur);
         }
 
         public int Largeur {  get; set; }
@@ -33,14 +36,6 @@ namespace Atelier_4
         public IBoite BoiteA { get; set; }
 
         public IBoite BoiteB { get; set; }
-
-        //public État GetPositionActuel(int idx)
-        //{
-        //    if(idx == 1) return État.début;
-        //    if(idx == Hauteur / 2) return État.milieu;
-        //    if(idx == Hauteur) return État.fin;
-        //    return État.début;
-        //}
 
         class Énumérateur : IEnumerator<string>
         {

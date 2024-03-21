@@ -28,9 +28,6 @@ namespace Atelier_4
         {
             boiteMain = new Mono(s);
         }
-        //public int Largeur => boiteMain.Largeur;
-
-        //public int Hauteur => throw new NotImplementedException();
 
         public bool EstVide => throw new NotImplementedException();
 
@@ -76,7 +73,7 @@ namespace Atelier_4
 
         public void Redimensionner(int hauteur, int largeur)
         {
-            throw new NotImplementedException();
+            boiteMain.Redimensionner(hauteur, largeur);
         }
 
         IEnumerator IEnumerable.GetEnumerator()

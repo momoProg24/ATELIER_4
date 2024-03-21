@@ -9,17 +9,22 @@ namespace Atelier_4
 {
     internal class ComboHorizontal: IBoite
     {
-        public ComboHorizontal(IBoite boiteA, IBoite boiteB) //REDO
+        public ComboHorizontal(IBoite boiteA, IBoite boiteB)
         {
+            BoiteA = boiteA.Cloner();
+            BoiteB = boiteB.Cloner();
+
             int hauteurMax = Math.Max(boiteA.Hauteur, boiteB.Hauteur);
             boiteA.Hauteur = hauteurMax;
             boiteB.Hauteur = hauteurMax;
 
             Hauteur = hauteurMax;
+            Largeur = boiteA.Largeur + boiteB.Largeur + 1;
 
-            BoiteA = boiteA.Cloner();
-            BoiteB = boiteB.Cloner();
+            boiteA.Redimensionner(Hauteur, boiteA.Largeur);
+            boiteB.Redimensionner(Hauteur, Largeur - boiteA.Largeur - 1);
         }
+
         public int Largeur { get; set; }
 
         public int Hauteur { get; set; }
@@ -33,37 +38,23 @@ namespace Atelier_4
             IBoite B1 { get; set; }
             IBoite B2 { get; set; }
 
-            IEnumerator<string> currentEnum { get; set; }
-
-            bool isMillieu = false;
-
-            public string Current //CHANGES TO DO HERE
+            public string Current
             {
-                get
-                {
-                    if (isMillieu)
-                    {
-                        isMillieu = false;
-                        return new string('|', Math.Max(B1.Hauteur, B2.Hauteur));
-                    }
-                    else return currentEnum.Current;
+                get {
+                    string contenuA = B1.GetEnumerator().Current == null ? new string(' ', B2.Largeur) : B1.GetEnumerator().Current;
+                    string contenuB = B2.GetEnumerator().Current == null ? new string(' ', B1.Largeur) : B2.GetEnumerator().Current;
+                    return contenuA + "|" + contenuB;
                 }
-                set { Current = value; }
             }
 
             object IEnumerator.Current => throw new NotImplementedException();
 
-            List<IBoite> list = new List<IBoite>();
-
-            public int indice = 1;
+            public int indice = -1;
 
             public Énumérateur(IBoite b1, IBoite b2)
             {
                 B1 = b1;
-                list.Add(b1);
                 B2 = b2;
-                list.Add(b2);
-                currentEnum = B1.GetEnumerator();
             }
 
             public void Dispose()
@@ -71,22 +62,7 @@ namespace Atelier_4
 
             }
 
-            public bool MoveNext() //REDO
-            {
-                if (currentEnum.MoveNext()) return true;
-                else if (list.Count > 1)
-                {
-                    list.RemoveAt(0);
-                    if (list.Count == 1)
-                    {
-                        isMillieu = true;
-                        currentEnum = B2.GetEnumerator();
-                        return true;
-                    }
-                    else return false;
-                }
-                return false;
-            }
+            public bool MoveNext() => B1.GetEnumerator().MoveNext() || B2.GetEnumerator().MoveNext() ? true : false;
 
             public void Reset()
             {
