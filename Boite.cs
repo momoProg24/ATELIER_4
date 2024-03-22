@@ -21,11 +21,9 @@ namespace Atelier_4
 
         public Boite(IBoite boite)
         {
-<<<<<<< HEAD
-            
-=======
+
             boiteMain = boite;
->>>>>>> main
+
         }
 
         public Boite(string s)

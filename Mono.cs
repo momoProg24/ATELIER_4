@@ -71,7 +71,7 @@ namespace Atelier_4
 
         public IBoite Cloner()
         {
-            throw new NotImplementedException();
+            return new Mono(string.Join("\n", msg));
         }
 
         public IEnumerator<string> GetEnumerator()
