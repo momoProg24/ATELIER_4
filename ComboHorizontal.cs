@@ -35,14 +35,14 @@ namespace Atelier_4
 
         class Énumérateur : IEnumerator<string>
         {
-            IBoite B1 { get; set; }
-            IBoite B2 { get; set; }
+            IEnumerator<string> E1 { get; set; }
+            IEnumerator<string> E2 { get; set; }
 
             public string Current
             {
                 get {
-                    string contenuA = B1.GetEnumerator().Current == null ? new string(' ', B2.Largeur) : B1.GetEnumerator().Current;
-                    string contenuB = B2.GetEnumerator().Current == null ? new string(' ', B1.Largeur) : B2.GetEnumerator().Current;
+                    string contenuA = E1.Current == null ? "" : E1.Current;
+                    string contenuB = E2.Current == null ? "" : E2.Current;
                     return contenuA + "|" + contenuB;
                 }
             }
@@ -53,8 +53,8 @@ namespace Atelier_4
 
             public Énumérateur(IBoite b1, IBoite b2)
             {
-                B1 = b1;
-                B2 = b2;
+                E1 = b1.GetEnumerator();
+                E2 = b2.GetEnumerator();
             }
 
             public void Dispose()
@@ -62,7 +62,14 @@ namespace Atelier_4
 
             }
 
-            public bool MoveNext() => B1.GetEnumerator().MoveNext() || B2.GetEnumerator().MoveNext() ? true : false;
+           public bool MoveNext()
+            {
+                bool responseB1 = E1.MoveNext();
+                bool responseB2 = E2.MoveNext();
+                if (responseB1 || responseB2)
+                    return true;
+                return false;
+            }
 
             public void Reset()
             {

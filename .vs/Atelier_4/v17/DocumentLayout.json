@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Documents\\GitHub\\ATELIER_4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AAF44805-6CE7-49A5-A2C5-6B96588E260C}|Atelier_4.csproj|c:\\users\\user\\documents\\github\\atelier_4\\mono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AAF44805-6CE7-49A5-A2C5-6B96588E260C}|Atelier_4.csproj|solutionrelative:mono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AAF44805-6CE7-49A5-A2C5-6B96588E260C}|Atelier_4.csproj|c:\\users\\user\\documents\\github\\atelier_4\\boite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AAF44805-6CE7-49A5-A2C5-6B96588E260C}|Atelier_4.csproj|solutionrelative:boite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AAF44805-6CE7-49A5-A2C5-6B96588E260C}|Atelier_4.csproj|c:\\users\\user\\documents\\github\\atelier_4\\combohorizontal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AAF44805-6CE7-49A5-A2C5-6B96588E260C}|Atelier_4.csproj|solutionrelative:combohorizontal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{AAF44805-6CE7-49A5-A2C5-6B96588E260C}|Atelier_4.csproj|c:\\users\\user\\documents\\github\\atelier_4\\mono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAF44805-6CE7-49A5-A2C5-6B96588E260C}|Atelier_4.csproj|solutionrelative:mono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAF44805-6CE7-49A5-A2C5-6B96588E260C}|Atelier_4.csproj|c:\\users\\user\\documents\\github\\atelier_4\\iboite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAF44805-6CE7-49A5-A2C5-6B96588E260C}|Atelier_4.csproj|solutionrelative:iboite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AAF44805-6CE7-49A5-A2C5-6B96588E260C}|Atelier_4.csproj|c:\\users\\user\\documents\\github\\atelier_4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AAF44805-6CE7-49A5-A2C5-6B96588E260C}|Atelier_4.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAF44805-6CE7-49A5-A2C5-6B96588E260C}|Atelier_4.csproj|c:\\users\\user\\documents\\github\\atelier_4\\boite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAF44805-6CE7-49A5-A2C5-6B96588E260C}|Atelier_4.csproj|solutionrelative:boite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AAF44805-6CE7-49A5-A2C5-6B96588E260C}|Atelier_4.csproj|c:\\users\\user\\documents\\github\\atelier_4\\combovertical.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,56 +34,69 @@
       "DocumentGroups": [
         {
           "DockedWidth": 263,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "IBoite.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ATELIER_4\\IBoite.cs",
+              "RelativeDocumentMoniker": "IBoite.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ATELIER_4\\IBoite.cs",
+              "RelativeToolTip": "IBoite.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T22:56:57.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Boite.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ATELIER_4\\Boite.cs",
               "RelativeDocumentMoniker": "Boite.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ATELIER_4\\Boite.cs",
               "RelativeToolTip": "Boite.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAgwEsAAAAMAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAwCIAAABjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-13T21:29:18.782Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "ComboHorizontal.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ATELIER_4\\ComboHorizontal.cs",
               "RelativeDocumentMoniker": "ComboHorizontal.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ATELIER_4\\ComboHorizontal.cs",
               "RelativeToolTip": "ComboHorizontal.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAAAYwEAAAABiAAAA",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAqwF0AAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-20T01:03:23.471Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ComboVertical.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ATELIER_4\\ComboVertical.cs",
               "RelativeDocumentMoniker": "ComboVertical.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ATELIER_4\\ComboVertical.cs",
               "RelativeToolTip": "ComboVertical.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABsAAAA7AAAA",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAgwHgAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-16T17:22:40.453Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Mono.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ATELIER_4\\Mono.cs",
               "RelativeDocumentMoniker": "Mono.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ATELIER_4\\Mono.cs",
               "RelativeToolTip": "Mono.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAqwCUAAAAlAAAA",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAuwGIAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-13T21:28:16.325Z",
               "EditorCaption": ""
@@ -92,7 +109,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ATELIER_4\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAhAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-13T21:20:07.645Z",
               "EditorCaption": ""

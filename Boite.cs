@@ -32,7 +32,7 @@ namespace Atelier_4
         public bool EstVide => throw new NotImplementedException();
 
         public int Largeur { get { return boiteMain.Largeur; } set { boiteMain.Largeur = value; } }
-        public int Hauteur { get; set; }
+        public int Hauteur { get { return boiteMain.Hauteur; } set { boiteMain.Hauteur = value; } }
 
         public IBoite Cloner()
         {
