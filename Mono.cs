@@ -86,14 +86,16 @@ namespace Atelier_4
 
         public void Redimensionner(int hauteur, int largeur)
         {
+            string newMsg = "";
             while(msg.Count < hauteur)
             {
                 msg.Add(new string(' ', largeur));
             }
             for(int i = 0; i < msg.Count; i++)
             {
-                if (msg[i].Length < hauteur)
-                    msg[i] = msg[i] + new string(' ', largeur);
+                newMsg = msg[i];
+                newMsg.PadRight(largeur, ' ');
+                msg[i] = newMsg;
             }
         }
 
