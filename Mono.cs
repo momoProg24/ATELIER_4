@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Transactions;
 
-namespace Atelier_4
+namespace Boites
 {
     internal class Mono : IBoite
     {

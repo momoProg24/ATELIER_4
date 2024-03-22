@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Atelier_4
+namespace Boites
 {
     internal class ComboHorizontal: IBoite
     {

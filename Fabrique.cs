@@ -1,37 +1,46 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace Atelier_4
+namespace Boites
 {
     public class FabriqueBoites
     {
         public IBoite Créer(string données)
         {
+            return ParseLignes(données);
+        }
+
+        public IBoite ParseLignes(string données)
+        {
             var lignes = données.Split('\n');
-            foreach (var ligne in lignes)
+            Queue<string> fileLignes = new Queue<string>(lignes);
+
+            while (fileLignes.Count > 0)
             {
+                string ligne = fileLignes.Dequeue().Trim();
                 if (ligne.StartsWith("mono"))
                 {
-                    // Construction d'un Mono à partir du texte
                     string texte = ligne.Substring(5).Trim();
                     return new Mono(texte);
                 }
-                else if (ligne.Trim() == "ch")
+                else if (ligne == "ch")
                 {
-                    // Construction d'un ComboHorizontal à partir des deux boîtes suivantes
-                    var boiteA = Créer(lignes[lignes.ToList().IndexOf(ligne) + 1]);
-                    var boiteB = Créer(lignes[lignes.ToList().IndexOf(ligne) + 2]);
+                    var boiteA = ParseLignes(fileLignes.Dequeue());
+                    var boiteB = ParseLignes(fileLignes.Dequeue());
                     return new ComboHorizontal(boiteA, boiteB);
                 }
-                else if (ligne.Trim() == "cv")
+                else if (ligne == "cv")
                 {
-                    // Construction d'un ComboVertical à partir des deux boîtes suivantes
-                    var boiteA = Créer(lignes[lignes.ToList().IndexOf(ligne)]);
-                    var boiteB = Créer(lignes[lignes.ToList().IndexOf(ligne) + 2]);
+                    var boiteA = ParseLignes(fileLignes.Dequeue());
+                    var boiteB = ParseLignes(fileLignes.Dequeue());
                     return new ComboVertical(boiteA, boiteB);
                 }
             }
+
             throw new ArgumentException("Données invalides : aucun préfixe trouvé.");
         }
     }

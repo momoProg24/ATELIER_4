@@ -3,7 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\melag\\OneDrive\\Bureau\\ProjetIntegration\\ATELIER_4\\",
   "Documents": [
     {
-<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{AAF44805-6CE7-49A5-A2C5-6B96588E260C}|Atelier_4.csproj|c:\\users\\melag\\onedrive\\bureau\\projetintegration\\atelier_4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AAF44805-6CE7-49A5-A2C5-6B96588E260C}|Atelier_4.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -12,34 +11,11 @@
       "RelativeMoniker": "D:0:0:{AAF44805-6CE7-49A5-A2C5-6B96588E260C}|Atelier_4.csproj|solutionrelative:fabrique.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AAF44805-6CE7-49A5-A2C5-6B96588E260C}|Atelier_4.csproj|c:\\users\\melag\\onedrive\\bureau\\projetintegration\\atelier_4\\mono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AAF44805-6CE7-49A5-A2C5-6B96588E260C}|Atelier_4.csproj|solutionrelative:mono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AAF44805-6CE7-49A5-A2C5-6B96588E260C}|Atelier_4.csproj|c:\\users\\melag\\onedrive\\bureau\\projetintegration\\atelier_4\\combovertical.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-=======
-      "AbsoluteMoniker": "D:0:0:{AAF44805-6CE7-49A5-A2C5-6B96588E260C}|Atelier_4.csproj|c:\\users\\user\\documents\\github\\atelier_4\\combohorizontal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AAF44805-6CE7-49A5-A2C5-6B96588E260C}|Atelier_4.csproj|c:\\users\\melag\\onedrive\\bureau\\projetintegration\\atelier_4\\combohorizontal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AAF44805-6CE7-49A5-A2C5-6B96588E260C}|Atelier_4.csproj|solutionrelative:combohorizontal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AAF44805-6CE7-49A5-A2C5-6B96588E260C}|Atelier_4.csproj|c:\\users\\user\\documents\\github\\atelier_4\\mono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AAF44805-6CE7-49A5-A2C5-6B96588E260C}|Atelier_4.csproj|solutionrelative:mono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AAF44805-6CE7-49A5-A2C5-6B96588E260C}|Atelier_4.csproj|c:\\users\\user\\documents\\github\\atelier_4\\iboite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AAF44805-6CE7-49A5-A2C5-6B96588E260C}|Atelier_4.csproj|solutionrelative:iboite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AAF44805-6CE7-49A5-A2C5-6B96588E260C}|Atelier_4.csproj|c:\\users\\user\\documents\\github\\atelier_4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AAF44805-6CE7-49A5-A2C5-6B96588E260C}|Atelier_4.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AAF44805-6CE7-49A5-A2C5-6B96588E260C}|Atelier_4.csproj|c:\\users\\user\\documents\\github\\atelier_4\\boite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AAF44805-6CE7-49A5-A2C5-6B96588E260C}|Atelier_4.csproj|solutionrelative:boite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AAF44805-6CE7-49A5-A2C5-6B96588E260C}|Atelier_4.csproj|c:\\users\\user\\documents\\github\\atelier_4\\combovertical.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
->>>>>>> main
+      "AbsoluteMoniker": "D:0:0:{AAF44805-6CE7-49A5-A2C5-6B96588E260C}|Atelier_4.csproj|c:\\users\\melag\\onedrive\\bureau\\projetintegration\\atelier_4\\combovertical.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AAF44805-6CE7-49A5-A2C5-6B96588E260C}|Atelier_4.csproj|solutionrelative:combovertical.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -51,8 +27,8 @@
       "RelativeMoniker": "D:0:0:{AAF44805-6CE7-49A5-A2C5-6B96588E260C}|Atelier_4.csproj|solutionrelative:boite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AAF44805-6CE7-49A5-A2C5-6B96588E260C}|Atelier_4.csproj|c:\\users\\melag\\onedrive\\bureau\\projetintegration\\atelier_4\\combohorizontal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AAF44805-6CE7-49A5-A2C5-6B96588E260C}|Atelier_4.csproj|solutionrelative:combohorizontal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AAF44805-6CE7-49A5-A2C5-6B96588E260C}|Atelier_4.csproj|c:\\users\\melag\\onedrive\\bureau\\projetintegration\\atelier_4\\mono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAF44805-6CE7-49A5-A2C5-6B96588E260C}|Atelier_4.csproj|solutionrelative:mono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,20 +38,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 263,
-<<<<<<< HEAD
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ComboHorizontal.cs",
-              "DocumentMoniker": "C:\\Users\\melag\\OneDrive\\Bureau\\ProjetIntegration\\ATELIER_4\\ComboHorizontal.cs",
-              "RelativeDocumentMoniker": "ComboHorizontal.cs",
-              "ToolTip": "C:\\Users\\melag\\OneDrive\\Bureau\\ProjetIntegration\\ATELIER_4\\ComboHorizontal.cs",
-              "RelativeToolTip": "ComboHorizontal.cs",
-              "ViewState": "AQIAAD0AAAAAAAAAAADwv18AAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\melag\\OneDrive\\Bureau\\ProjetIntegration\\ATELIER_4\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\melag\\OneDrive\\Bureau\\ProjetIntegration\\ATELIER_4\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-21T21:55:58.635Z",
+              "WhenOpened": "2024-03-13T21:20:07.645Z",
               "EditorCaption": ""
             },
             {
@@ -86,9 +61,22 @@
               "RelativeDocumentMoniker": "Fabrique.cs",
               "ToolTip": "C:\\Users\\melag\\OneDrive\\Bureau\\ProjetIntegration\\ATELIER_4\\Fabrique.cs",
               "RelativeToolTip": "Fabrique.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAiwB0AAABMAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-21T21:53:05.102Z",
+              "WhenOpened": "2024-03-22T01:08:03.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ComboHorizontal.cs",
+              "DocumentMoniker": "C:\\Users\\melag\\OneDrive\\Bureau\\ProjetIntegration\\ATELIER_4\\ComboHorizontal.cs",
+              "RelativeDocumentMoniker": "ComboHorizontal.cs",
+              "ToolTip": "C:\\Users\\melag\\OneDrive\\Bureau\\ProjetIntegration\\ATELIER_4\\ComboHorizontal.cs",
+              "RelativeToolTip": "ComboHorizontal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T21:55:58.635Z",
               "EditorCaption": ""
             },
             {
@@ -99,36 +87,20 @@
               "RelativeDocumentMoniker": "ComboVertical.cs",
               "ToolTip": "C:\\Users\\melag\\OneDrive\\Bureau\\ProjetIntegration\\ATELIER_4\\ComboVertical.cs",
               "RelativeToolTip": "ComboVertical.cs",
-              "ViewState": "AQIAAGoAAAAAAAAAAAAgwH4AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-16T18:24:25.925Z",
-=======
-          "SelectedChildIndex": 2,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IBoite.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ATELIER_4\\IBoite.cs",
-              "RelativeDocumentMoniker": "IBoite.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ATELIER_4\\IBoite.cs",
-              "RelativeToolTip": "IBoite.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-21T22:56:57.925Z",
->>>>>>> main
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-<<<<<<< HEAD
               "Title": "IBoite.cs",
               "DocumentMoniker": "C:\\Users\\melag\\OneDrive\\Bureau\\ProjetIntegration\\ATELIER_4\\IBoite.cs",
               "RelativeDocumentMoniker": "IBoite.cs",
               "ToolTip": "C:\\Users\\melag\\OneDrive\\Bureau\\ProjetIntegration\\ATELIER_4\\IBoite.cs",
               "RelativeToolTip": "IBoite.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAAAAsAAAAVAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-13T21:30:00.076Z",
               "EditorCaption": ""
@@ -136,84 +108,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
-=======
->>>>>>> main
               "Title": "Boite.cs",
               "DocumentMoniker": "C:\\Users\\melag\\OneDrive\\Bureau\\ProjetIntegration\\ATELIER_4\\Boite.cs",
               "RelativeDocumentMoniker": "Boite.cs",
               "ToolTip": "C:\\Users\\melag\\OneDrive\\Bureau\\ProjetIntegration\\ATELIER_4\\Boite.cs",
               "RelativeToolTip": "Boite.cs",
-<<<<<<< HEAD
-              "ViewState": "AQIAADEAAAAAAAAAAAAAAFYAAAAAAAAA",
-=======
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAwCIAAABjAAAA",
->>>>>>> main
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-13T21:29:18.782Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-<<<<<<< HEAD
-              "DocumentIndex": 2,
-=======
-              "DocumentIndex": 0,
-              "Title": "ComboHorizontal.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ATELIER_4\\ComboHorizontal.cs",
-              "RelativeDocumentMoniker": "ComboHorizontal.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ATELIER_4\\ComboHorizontal.cs",
-              "RelativeToolTip": "ComboHorizontal.cs",
-              "ViewState": "AQIAAEsAAAAAAAAAAAAqwF0AAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T01:03:23.471Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ComboVertical.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ATELIER_4\\ComboVertical.cs",
-              "RelativeDocumentMoniker": "ComboVertical.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ATELIER_4\\ComboVertical.cs",
-              "RelativeToolTip": "ComboVertical.cs",
-              "ViewState": "AQIAAFcAAAAAAAAAAAAgwHgAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-16T17:22:40.453Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
->>>>>>> main
+              "DocumentIndex": 6,
               "Title": "Mono.cs",
               "DocumentMoniker": "C:\\Users\\melag\\OneDrive\\Bureau\\ProjetIntegration\\ATELIER_4\\Mono.cs",
               "RelativeDocumentMoniker": "Mono.cs",
               "ToolTip": "C:\\Users\\melag\\OneDrive\\Bureau\\ProjetIntegration\\ATELIER_4\\Mono.cs",
               "RelativeToolTip": "Mono.cs",
-<<<<<<< HEAD
-              "ViewState": "AQIAABwAAAAAAAAAAAAUwCQAAAAAAAAA",
-=======
-              "ViewState": "AQIAAEgAAAAAAAAAAAAuwGIAAAANAAAA",
->>>>>>> main
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-13T21:28:16.325Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\melag\\OneDrive\\Bureau\\ProjetIntegration\\ATELIER_4\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\melag\\OneDrive\\Bureau\\ProjetIntegration\\ATELIER_4\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-<<<<<<< HEAD
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAGAAAA",
-=======
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAAAAAA",
->>>>>>> main
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T21:20:07.645Z",
               "EditorCaption": ""
             }
           ]
